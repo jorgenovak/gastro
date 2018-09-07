@@ -1,0 +1,41 @@
+body {
+    background: #fbfbfb;
+}
+.site-content {
+    padding-top: 80px;
+}
+h1 {
+    margin-bottom: 40px;
+}
+.box {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+.box + .box {
+    margin-left: 40px;
+}
+a.button-fill {
+    display: inline-block;
+    color: #fff;
+}
+a.button-fill + a.button-fill {
+    margin-left: 40px;
+}
+a.button-stroke {
+    display: inline-block;
+}
+a.button-stroke + a.button-stroke {
+    margin-left: 40px;
+}
+a + a {
+    margin-left: 40px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+}
+.subsection {
+    padding: 80px 0;
+}

@@ -1,0 +1,39 @@
+#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
+  color: transparent ;
+  background: url('your-icon-path') no-repeat scroll 0 0 / 100% auto;
+}
+/* .wp-submenu {
+  background: #3b434c !important;
+} */
+#menu-posts-skinjoint,
+#menu-posts-nacional,
+#menu-posts-gallo,
+#menu-posts-mercurio {
+	background: #2c353e !important;
+}
+#menu-posts-skinjoint .wp-menu-image.dashicons-before.dashicons-admin-post::before {
+	content: url(img/skinjoint_logo.svg) !important;
+}
+#advanced-sortables {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+#advanced-sortables .postbox {
+  display: inline-block;
+}
+#advanced-sortables .postbox  table th {
+  display: none;
+}
+#advanced-sortables .postbox  table input[type="text"] {
+  margin-bottom: 10px;
+}
+#advanced-sortables .postbox  table input {
+  width: 100% !important;
+  display: block;
+}
+
+#advanced-sortables .postbox .inside,
+#advanced-sortables .postbox.closed .inside {
+  display: block !important;
+}

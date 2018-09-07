@@ -1,0 +1,12 @@
+#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
+  color: transparent ;
+  background: url('your-icon-path') no-repeat scroll 0 0 / 100% auto;
+}
+
+#menu-posts-skinjoint {
+	background: red !important;
+}
+#menu-posts-skinjoint .wp-menu-image.dashicons-before.dashicons-admin-post::before {
+	background-image: url(img/../../skinjoint_logo.png) !important;
+}
+

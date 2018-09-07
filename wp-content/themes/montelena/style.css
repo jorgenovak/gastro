@@ -1,0 +1,6 @@
+#menu-posts-skinjoint {
+	background: red !important;
+}
+#menu-posts-skinjoint .wp-menu-image.dashicons-before.dashicons-admin-post::before {
+	background-image: url(img/../../skinjoint_logo.png) !important;
+}
